@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+img {
+  max-width: 100%;
+  width: 130px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  /* background-size: cover;
+  background-position: center center; */
+}
+
+/* @media (min-width: 768px) {
+  img {
+    max-width: 155px;
+    min-width: 203px;
+    height: auto;
+  }
+} */
